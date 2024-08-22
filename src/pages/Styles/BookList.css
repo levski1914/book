@@ -1,0 +1,132 @@
+.book-page{
+    display: flex;
+    height: auto;
+}
+.Booklist{
+    width: 100%;
+
+}
+.bookList {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: center; 
+    gap: 30px;
+    transition: grid-template-columns 0.3s ease-in-out;
+    background-color: #fff;
+
+}
+.Title{
+    text-align: center;
+    padding: 1em;
+}
+.bookList li {
+    width: 300px;
+    /* border: 1px solid; */
+    height:550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    border-radius: 10px;
+    transition: transform 0.2s;
+    background-color: #fff; 
+    
+}
+
+.bookList li:hover {
+    transform: scale(1.05);
+    border: 2px solid #ff6f61;
+}
+
+.bookList li img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 300px;
+    padding-top: .5em;
+    height: 250px;
+}
+
+.bookDetails h2 {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.bookDetails {
+    padding: 1em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bookDetails p {
+    font-size: 0.9em;
+}
+
+.bookDetails a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 10px 0;
+    background-color: #ff6f61;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.bookDetails button {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #555;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.bookDetails button:hover {
+    background-color: #333;
+}
+
+.search-sort {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+
+.search-sort input {
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+
+.search-sort select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.noFound{
+    height: 56.2vh;
+}
+
+@media (max-width: 1236px) {
+    .main{
+        grid-template-columns: repeat(3,1fr);
+        transition: all .3s ease-in-out;
+    }
+    .wrap{
+        display: none !important;
+    }
+    .today{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}

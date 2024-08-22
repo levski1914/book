@@ -1,0 +1,176 @@
+.loginPage{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: radial-gradient(19.48% 42.48% at 10% 22.48%, #9CC0E9 0%, #5A7EDC 100%);
+    z-index: 1;
+}
+
+
+
+.loginHeader{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: #00309C;
+}
+
+.loginHeader::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    width: 100%;
+    height:3px;
+    background: linear-gradient(270deg, #084DA3 -33.4%, #084DA3 6.07%, #FFFFFF 49.56%, #084DA3 82.59%, #084DA3 121.25%);
+}
+
+.loginMain{
+    display: flex;
+    width: 100%;
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+
+.loginBanner img{
+    width: 150px;
+    height: 100px;
+}
+
+.loginBanner h1{
+    color: #fff !important;
+    font-weight: 400;
+    width: 70%;
+    text-align: right;
+}
+
+.loginBanner h2{
+    font-family: "Source Sans Pro", sans-serif;
+    color: #fff !important;
+    font-weight: 400;
+}
+
+.line{
+    width: 2px;
+    height: 80%;
+    margin: 0 42px ;
+    background: linear-gradient(180deg, #5A7EDC 0%, #FFFFFF 47.4%, #508FD9 98.96%);
+}
+
+.users{
+    padding: 5px 20px;
+    width: 450px;
+    height: 200px;
+    background: linear-gradient(90deg, #084DA3 0%, #5A7EDC 100%);
+    border-radius: 4px 0px 0px 4px;
+    position: relative;
+}
+
+.users::after,.register::after{
+    content: "";
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 40%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    right: -1px;
+    bottom: -1px;
+    z-index: -1;
+    pointer-events: none;
+    border-radius: 8px;
+}
+.users .inputs, .register .inputs{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+    color: #fff !important;
+    line-height: 2;
+    
+
+}
+.submit{
+    
+    display: flex;
+    gap: 20px;
+}
+
+.submit button{
+    background:url("../../images/download\ \(8\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    border-radius: 8px;
+    height: 30px;
+}
+
+.inputs label{
+    color: #fff !important;
+}
+
+.inputs input{
+    height: 40px;
+    padding: 0 10px;
+}
+.loginFooter{
+    width: 100%;
+    height: 100px;
+    bottom: 0 !important;
+    position: absolute;
+    background-color: #00309C;
+}
+
+.loginFooter::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(270deg, #084DA3 -33.4%, #084DA3 6.07%, #FF9933 49.56%, #084DA3 82.59%, #084DA3 121.25%);
+}
+
+.backControls{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.backControls .text p{
+    color: #fff !important;
+}
+
+.register{
+    height: 270px;
+    padding: 5px 20px;
+    width: 450px;
+    background: linear-gradient(90deg, #084DA3 0%, #5A7EDC 100%);
+    border-radius: 4px 0px 0px 4px;
+    position: relative;
+}
+
+.acc-sub{
+    display: flex;
+    color: #fff !important;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.acc-sub p{
+    color: #fff !important;
+}

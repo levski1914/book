@@ -1,0 +1,79 @@
+.aside{
+    width: 240px;
+    height: auto;
+    background: linear-gradient(rgb(116, 138, 255) 0%, rgb(64, 87, 211) 100%);
+    box-shadow: inset 2px -1px #00138c;
+    padding: 10px;
+}
+
+.search{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.aside-cards{
+    margin-bottom: 15px;
+    border-radius: 10000px !important;
+}
+.aside-card-header{
+    /* font-size: 15px !important; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 25px;
+    padding-left: 11px;
+    padding-right: 2px;
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(240, 240, 255) 0px, rgb(240, 240, 255) 30%, rgb(168, 188, 255) 100%);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.aside-card-header h2{
+    font-size: 14px;
+    color: rgb(12, 50, 125);
+    
+}
+
+.aside-card-main{
+    padding: 5px 10px;
+    background: linear-gradient(to right, rgb(180, 200, 251) 0%, rgb(164, 185, 251) 50%, rgb(180, 200, 251) 100%) rgba(198, 211, 255, 0.87);
+}
+
+.aside-row{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 3px 0;
+}
+
+.aside-row img{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.aside-row a{
+    font-size: 13px;
+    color: rgb(12, 50, 125) !important;
+    font-family: "Pixelated MS Sans Serif",Arial !important;
+}
+
+.aside-row a:hover{
+    color: rgb(43, 114, 255) !important;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.aside-card-main h2{
+    color: #000 !important;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.search-input h3{
+    font-size: .9em;
+    /* letter-spacing: 0px !important; */
+    color: #000 !important;
+    font-weight: 400;
+}

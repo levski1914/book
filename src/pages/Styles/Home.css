@@ -1,0 +1,120 @@
+.mainContainer{
+    position: relative;
+    z-index: 1;
+    /* margin: 0 auto; */
+    display: flex;
+    width: 99.8%;
+    height: 100%;
+    /* max-width: 99.8%; */
+    flex: 1 1 0%;
+    border-width: 0 1px 1px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, .4);
+    /* background-color: #EEEEEE; */
+   
+}
+
+.Container{
+    display: flex;
+    padding: 1em;
+    width: 100%;
+    background-color: #fff;
+    align-items:flex-start;
+    gap: 20px;
+ 
+}
+
+.logIn ul{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    row-gap: 30px;
+    font-size: 1.5em;
+    color: #F73A40;
+}
+
+
+
+.primaryContent{
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 2em;
+}
+
+.main{
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    transition:    grid-template-columns .3s ease-in-out;
+}
+
+.wishList{
+    text-align: center;
+}
+
+.wishList h1{
+    color: #fff;
+}
+
+
+.Today h2{
+    margin: 1em 0;
+}
+
+.today{
+    display: grid !important;
+    grid-template-columns: repeat(4,1fr);
+    gap: 40px !important;
+}
+
+.today li h2{
+    margin:0
+}
+
+
+.wrap{
+    grid-row: 1/3;
+    grid-column: 3/5;
+    padding: 1em;
+    position: relative;
+    width: 100% !important;
+}
+
+.wrap img{
+    height: 500px !important;
+    border-radius: 10px;
+}
+
+
+.book-item{
+    position: relative;
+
+}
+.wishIcon{
+    position: absolute;
+    top: 10px ;
+    right: 10px;
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    z-index: 100;
+}   
+
+.wishIcon:hover{
+    background-color: #bcbbbb;
+    
+}
+
+.wishIcon:active{
+    background-color: black;
+}
+

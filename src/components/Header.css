@@ -1,0 +1,305 @@
+/* Основни стилове за хедъра */
+.header {
+  background-color:#ECE9D8 ;
+  color: #fff;
+  box-shadow: rgb(176, 176, 176) 0px -2px 3px -1px inset;
+  /* padding: 10px 20px; */
+}
+
+
+.title-bar{
+  border: 1px solid;
+  background: linear-gradient(180deg, #0997ff, #0053ee 8%, #0050ee 40%, #06f 88%, #06f 93%, #005bff 95%, #003dd7 96%, #003dd7);
+  color: #fff !important;
+  border-top: 1px solid #0831d9;
+    border-left: 1px solid #0831d9;
+    border-right: 1px solid #001ea0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 7px;
+    text-shadow: 1px 1px #0f1089;
+}
+
+.title-bar h1{
+  color: #fff !important;
+  padding: 0 1em;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+.under-title{
+
+  color: #fff;
+  font-family: Tahoma;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.under-title ul{
+  display: flex;
+  padding-left: 5px;
+  width: 100%;
+  gap: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  /* align-items: center; */
+}
+
+.under-title li{
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+
+.under-title li:hover{
+    background-color: #1660E8;
+    color: #fff !important;
+}
+
+
+.under-title li:first-child{
+  position: relative;
+
+}
+
+.semiMenu{
+  border: 1px solid gray;
+  position: absolute;
+  left: 0;
+  background-color: #fff;
+  z-index: 100;
+  display: none;
+  box-shadow: rgb(100, 100, 100) 2px 2px 1px;
+  /* grid-template-columns: 16px auto auto 15px 0px; */
+  padding: 2px;
+  line-height: 18px;
+  font-size: 14px;
+  width: 150px;
+  ;
+  /* grid-template-columns: 16px auto auto 17px 0px; */
+}
+
+.under-title li:first-child:hover .semiMenu{
+    display: grid
+}
+
+.under-title .help:hover .semiMenu{
+    display: grid
+}
+
+.help{
+  position: relative;
+}
+
+.help ul{
+  flex-direction: column;
+}
+.help ul li{
+  padding: 0;
+}
+.help ul li a{
+  padding: 5px 10px;
+  display: inline-block;
+width: 100%;
+}
+
+.semiMenu li{
+  /* display: contents; */
+ padding: 0;
+}
+.semiMenu li a{
+  color: #000 !important;
+  padding: 5px 10px;
+  display: inline-block;
+width: 100%;
+}
+
+.semiMenu li:hover a{
+  color: #fff !important;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 50px;
+}
+
+
+.container::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda;
+}
+.container::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 3px;
+  box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda;
+}
+
+
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+  height: 30px;
+  border-left: 1px solid white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+}
+
+.logo img{
+  height: 30px;
+  width: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+
+  align-items: center;
+  height: 100%;
+}
+
+.nav-links li {
+  display: flex;
+  align-items: center;
+  -webkit-box-align: center;
+  cursor: pointer;
+  height: 100%;
+}
+
+
+.nav-links li:nth-child(2){
+  position: relative;
+}
+.nav-links li:nth-child(2)::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px ;
+  height: 90%;
+  margin: 0 2px;
+  background-color: rgba(0, 0, 0, .2);
+}
+.nav-links li:nth-child(3){
+  position: relative;
+}
+.nav-links li:nth-child(3)::before{
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 1px ;
+  height: 90%;
+  margin: 0 -6px;
+  background-color: rgba(0, 0, 0, .2);
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  color: #000 !important;
+  text-decoration: none;
+  font-size: 1em;
+  height: 100%;
+  padding:10px;
+}
+
+.nav-links li:hover{
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px -1px 1px inset;
+}
+
+.header-part{
+  width: 100%;
+  position: relative;
+  height: 700px;
+  background-image: url("../../images/wallpaperflare.com_wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  box-shadow: inset 0 1px 2px grey !important;
+}
+
+.header-part::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 3px;
+  box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda;
+}
+.header-part::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 3px;
+  box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda;
+}
+
+
+/* Стилове за по-малки екрани */
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .search {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .search input {
+      width: 100%;
+  }
+
+  .prof {
+      width: 100%;
+      justify-content: space-between;
+  }
+
+  .nav-links {
+      width: 100%;
+      justify-content: space-between;
+  }
+
+  .header-part img {
+      width: 100%;
+  }
+}
+
+
+.PaintTool{
+  display: flex;
+  align-items: center;
+}
+
+.PaintTool span{
+  background-image: url('../assets/paint.png');
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+}

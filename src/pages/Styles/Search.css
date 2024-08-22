@@ -1,0 +1,71 @@
+.Search{
+    width: 99.8%;
+    height: 80vh;
+    display: flex;
+}
+
+.search{
+    height: auto;
+}
+.searchPlace{
+    background-color: #fff !important;
+    width: 100%;
+    /* height: 85vh !important; */
+    position: relative;
+}
+
+.watermark{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.watermark img{
+    width: 300px;
+    height: 300px;
+    opacity: 15%;
+    position: relative;
+    filter: hue-rotate();
+    user-select: none;
+    pointer-events: none;
+}
+
+
+.btns{
+    display: flex;
+    margin-top: 1em;
+    justify-content: space-around;
+
+}
+
+.btn{
+    font-family:"Pixelated MS Sans Serif", Arial;
+    -webkit-font-smoothing:antialiased;
+    font-size: 1em;
+    border: 1px solid #003c74;
+    background: linear-gradient(180deg,#fff,#ecebe5 86%,#d8d0c4);
+    /* box-shadow: none; */
+    border-radius: 3px;
+    color: #000 !important;
+    min-width: 75px;
+    min-height: 23px;
+    padding: 0 12px;
+    text-align: center;
+}
+.btn:hover{
+    box-shadow: inset -1px 1px #fff0cf, inset 1px 2px #fdd889, inset -2px 2px #fbc761, inset 2px -2px #e5a01a; ;
+}
+.btn:active{
+    box-shadow: none;
+    background:linear-gradient(180deg, #cdcac3, #e3e3db 8%, #e5e5de 94%, #f2f2f1);
+}
+
+.btn:focus{
+    box-shadow: inset -1px 1px #cee7ff, inset 1px 2px #98b8ea, inset -2px 2px #bcd4f6, inset 1px -1px #89ade4, inset 2px -2px #89ade4 !important;
+    outline: 1px dotted #000 !important;
+    outline-offset: -4px !important;
+}
+
+.btn a{
+    color: #000 !important;
+}

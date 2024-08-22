@@ -1,0 +1,8 @@
+.paintPage{
+    display: flex;
+}
+
+.paint{
+    width: 83vw;
+    height: 80vh;
+}

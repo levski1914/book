@@ -1,0 +1,294 @@
+.taskBar{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgb(31, 47, 134) 0px, rgb(49, 101, 196) 3%, rgb(54, 130, 229) 6%, rgb(68, 144, 230) 10%, rgb(56, 131, 229) 12%, rgb(43, 113, 224) 15%, rgb(38, 99, 218) 18%, rgb(35, 91, 214) 20%, rgb(34, 88, 213) 23%, rgb(33, 87, 214) 38%, rgb(36, 93, 219) 54%, rgb(37, 98, 223) 86%, rgb(36, 95, 220) 89%, rgb(33, 88, 212) 92%, rgb(29, 78, 192) 95%, rgb(25, 65, 165) 98%);
+
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.clock{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgb(12, 89, 185) 1%, rgb(19, 158, 233) 6%, rgb(24, 181, 242) 10%, rgb(19, 155, 235) 14%, rgb(18, 144, 232) 19%, rgb(13, 141, 234) 63%, rgb(13, 159, 241) 81%, rgb(15, 158, 237) 88%, rgb(17, 155, 233) 91%, rgb(19, 146, 226) 94%, rgb(19, 126, 215) 97%, rgb(9, 91, 201) 100%);
+    padding: 0 10px;
+    border-left: 1px solid rgb(16, 66, 175);
+    margin-left: 10px;
+    height: 40px;
+    gap:10px;
+    color: #fff !important;
+}
+
+.clock .footer-icon img{
+    width:20px;
+    height: 20px;
+}
+
+.start{
+    height: 100%;
+}
+
+.start img{
+    height: 40px;
+    padding: 0;
+    margin: 0;
+    object-fit: cover;
+    object-position: center;
+}
+
+.footer-clock{
+    color: #fff !important;
+
+}
+.footer-clock span{
+    color: #fff !important;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.dateTime{
+    position: absolute;
+    width: 450px;
+    left: 50%;
+    top: 50%;
+    z-index: 100;
+    transform: translate(-50%,-50%);
+    background-color: #EFEBDE;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    box-shadow: inset -1px -1px #00138c, inset 1px 1px #0831d9, inset -2px -2px #001ea0, inset 2px 2px #166aee, inset -3px -3px #003bda, inset 3px 3px #0855dd;
+}
+
+.timeDate-menu{
+    display: flex !important;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #0831d9;
+    border-left: 1px solid #0831d9;
+    border-right: 1px solid #001ea0;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    /* height: 21px; */
+    padding: 3px;
+}
+
+.title-bar-text{
+    color: #fff !important;
+    font-size: 13px;
+   padding-left: 3px;
+   font-weight: 700;
+}
+
+.title-btn{
+    min-width: 20px;
+    height: 23px;
+    margin-left: 2px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    box-shadow: none;
+    border: none;
+    background-color: #0050ee;
+}
+.title-btn:first-child{
+    background-image: url(../../images/download.svg);
+}
+.title-btn:nth-child(2){
+    background-image: url("../../images/download\ (1).svg");
+}
+.title-btn:last-child{
+    background-image: url("../../images/download\ (2).svg");
+}
+
+.title-btn:first-child:hover{
+    background-image: url("../../images/download\ (3).svg");
+}
+
+.title-btn:nth-child(2):hover{
+    background-image: url("../../images/download\ (4).svg");
+}
+.title-btn:last-child:hover{
+    background-image: url("../../images/download\ (5).svg");
+}
+.title-btn:first-child:active{
+    background-image: url("../../images/download\ (7).svg");
+}
+
+.title-btn:nth-child(2):active{
+    background-image: url("../../images/download\ (6).svg");
+}
+.title-btn:last-child:active{
+    background-image: url("../../images/download\ (8).svg");
+}
+
+.window-body{
+    height: auto;
+    background-color: #EFEBDE;
+    margin: 8px;
+}
+.tabList{
+    margin: 0 0 -2px;
+}
+.tabList button{
+    border: none;
+    padding: 10px;
+    background-color: #F7F7F7;
+    border: 1px solid #003c74;
+    background: linear-gradient(180deg, #fff, #fafaf9 26%, #f0f0ea 95%, #ecebe5);
+    margin-left: -1px;
+    margin-right: 2px;
+    border-radius: 0;
+    border-color: #91a7b4;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    padding: 0 12px 3px;
+}
+
+.tabList button:first-child{
+    background: #F7F7F7;
+
+    border-color: #919b9c;
+    margin-left: .5px;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid #e68b2c;
+    box-shadow: inset 0 2px #ffc73c;
+}
+
+.tabPanel{
+    background-color: #F7F7F7;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #919b9c;
+    box-shadow: inset 1px 1px #fcfcfe, inset -1px -1px #fcfcfe, 1px 2px 2px 0 rgba(208, 206, 191, .75);
+}
+
+.tabPanel legend{
+    color: #0046d5 !important;
+    margin-inline-start: 10px;
+    margin-inline-end: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabPanel fieldset{
+    box-shadow: 0;
+    border: 1px solid #d0d0bf;
+    border-radius: 4px;
+}
+.date{
+    width: 50%;
+    height: 200px;
+}
+
+.watch{
+    width: 40%;
+}
+
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .day-list,
+  .date-list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  .day-list li,
+  .date-list li {
+    width: calc(100% / 7);
+    text-align: center;
+    margin: 2px 0;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .date-list .Today {
+    background-color: #0046d5;
+    color: white !important;
+    /* border-radius: 50%; */
+  }
+  
+  .date-list .selected {
+    background-color: #0046d5;
+    
+    color: white !important;
+    /* border-radius: 50%; */
+  }
+  .diallines {
+    position: absolute;
+    z-index: 2;
+    width: 2px;
+    height: 15px;
+    background: #666;
+    left: 50%;
+    transform-origin: 0 99px;
+  }
+  
+  .diallines.hour-mark {
+    width: 4px;
+    height: 25px;
+  }
+  
+  .analogClock {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px dotted #000;
+    border-radius: 50%;
+    margin: 20px auto;
+  }
+  
+  .analogClock .hour,
+  .analogClock .minute,
+  .analogClock .second {
+    position: absolute;
+    width: 50%;
+    height: 2px;
+    background: #000;
+    top: 50%;
+    transform-origin: 100%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+  
+  .analogClock .hour {
+    height: 4px;
+  }
+  
+  .analogClock .minute {
+    height: 3px;
+  }
+  
+  .analogClock .second {
+    background: red;
+  }
+  
+  .Clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 100;
+    width: 90%;
+    transform: translate(-50%, -50%) !important;
+  }
+  
+  .center {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 1px solid;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  

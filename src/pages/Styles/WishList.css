@@ -1,0 +1,24 @@
+.wishPage{
+    display: flex;
+    height: 77.8vh;
+    
+}
+
+.wishList{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    /* justify-content: center; */
+}
+
+.mainArea table thead tr{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+.mainArea table tbody tr{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
