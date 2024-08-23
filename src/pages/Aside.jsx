@@ -18,10 +18,7 @@ const Aside = ({ handleTabClick }) => {
             </div>
             <div className="aside-card-main">
               <div className="aside-row">
-                <img
-                  src="../../images/Windows icons - PNG/rundll32.exe_14_100-4.png"
-                  alt=""
-                />
+                <img src="../../images/rundll32.exe_14_100-4.png" alt="" />
                 <Link to="/manage-books">Add new book</Link>
               </div>
               <div className="aside-row">
@@ -34,10 +31,7 @@ const Aside = ({ handleTabClick }) => {
                 <Link to="/manage-books">Manage books</Link>
               </div>
               <div className="aside-row">
-                <img
-                  src="../../images/Windows Icons - PNG/shell32.dll_14_269-4.png"
-                  alt=""
-                />
+                <img src="../../images/shell32.dll_14_269-4.png" alt="" />
                 <Link to="/profile">User account</Link>
               </div>
             </div>
@@ -54,10 +48,7 @@ const Aside = ({ handleTabClick }) => {
         </div>
         <div className="aside-card-main">
           <div className="aside-row">
-            <img
-              src="../../images/Windows icons - PNG/rundll32.exe_14_100-4.png"
-              alt=""
-            />
+            <img src="../../images/rundll32.exe_14_100-4.png" alt="" />
             <Link to="/" onClick={() => handleTabClick("allInOne")}>
               All in one store
             </Link>
@@ -74,10 +65,7 @@ const Aside = ({ handleTabClick }) => {
           </div>
 
           <div className="aside-row">
-            <img
-              src="../../images/Windows icons - PNG/shdoclc.dll_14_191-7.png"
-              alt=""
-            />
+            <img src="../../images/shdoclc.dll_14_191-7.png" alt="" />
             <Link to="/wishlist">Whishlist ({wishlistCount})</Link>
           </div>
         </div>

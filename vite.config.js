@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react";
+import react from "@vitejs/plugin-react-swc";
 
+// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: "/React-project/book", // тук използвайте правилния път до вашия проект
 });

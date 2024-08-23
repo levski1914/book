@@ -85,10 +85,8 @@ const Profile = ({ onClose }) => {
 
         <div className="profile-main">
           <div className="header-profile">
-            <img
-              src="../../images/Windows Icons - PNG/shell32.dll_14_269-4.png"
-              alt="#"
-            />
+            <img src="../../images/shell32.dll_14_269-4.png" alt="#" />
+            {/* <img src="../../images/shell" alt="#" /> */}
             <p>User Accounts</p>
           </div>
 
@@ -102,17 +100,10 @@ const Profile = ({ onClose }) => {
                 </Link>
               </li>
               <li onClick={() => setEditMode(true)}>
-                <img
-                  src="../../images/Windows Icons - PNG/shell32.dll_14_325-5.png"
-                  alt=""
-                />{" "}
-                <span>Edit an account</span>
+                <img src="../../images/" alt="" /> <span>Edit an account</span>
               </li>
               <li onClick={handleShowWarning}>
-                <img
-                  src="../../images/Windows Icons - PNG/shell32.dll_14_32-7.png"
-                  alt=""
-                />
+                <img src="../../images/shell32.dll_14_32-7.png" alt="" />
                 <span>Delete an account</span>
               </li>
             </ul>
@@ -127,10 +118,7 @@ const Profile = ({ onClose }) => {
                 </div>
                 <div className="warning-body ">
                   <div className="message">
-                    <img
-                      src="../../images/Windows Icons - PNG/user32.dll_14_103-6.png"
-                      alt=""
-                    />
+                    <img src="../../images/user32.dll_14_103-6.png" alt="" />
                     <p>Are you sure you want to delete this account?</p>
                   </div>
                   <button onClick={handleDelete}>Delete!</button>
