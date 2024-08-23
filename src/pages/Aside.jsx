@@ -60,12 +60,14 @@ const Aside = ({ handleTabClick }) => {
             </Link>
           </div>
           <div className="aside-row">
-            <img src="../../images/download (6).png" alt="" />
+            <img src="../assets/download (6).png" alt="" />
             <Link to="/">Most popular books</Link>
           </div>
 
           <div className="aside-row">
-            <img src="../../images/shdoclc.dll_14_191-7.png" alt="" />
+            <img src="../assets/shdoclc.dll_14_191-7.png" alt="" />
+            {/* <img src="/src/assets/shdoclc.dll_14_191-7.png" alt="" /> */}
+            {/* <img src="../assets/" alt="" /> */}
             <Link to="/wishlist">Whishlist ({wishlistCount})</Link>
           </div>
         </div>

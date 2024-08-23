@@ -80,7 +80,7 @@ const Search = () => {
           </article>
           <img
             style={{ width: "100px", height: "100px" }}
-            src="../../images/Image_29.webp"
+            src="/src/assets/Image_29.webp"
             alt=""
           />
         </div>
