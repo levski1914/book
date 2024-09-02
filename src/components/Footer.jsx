@@ -147,17 +147,17 @@ const Footer = () => {
     <>
       <div className="footer taskBar">
         <div className="start">
-          <img src="/src/assets/download (14).png" alt="" />
+          <img src="./assets/download-(14).png" alt="" />
         </div>
         <div className="clock">
           <div className="footer-icon">
-            <img src="/src/assets/download (11).png" alt="" />
+            <img src="./assets/download-(11).png" alt="" />
           </div>
           <div className="footer-icon">
-            <img src="/src/assets/download (12).png" alt="" />
+            <img src="./assets/download-(12).png" alt="" />
           </div>
           <div className="footer-icon">
-            <img src="/src/assets/download (13).png" alt="" />
+            <img src="./assets/download-(13).png" alt="" />
           </div>
           <div className="footer-clock">
             <span onClick={() => setIsVisible(!isVisible)}>{time}</span>

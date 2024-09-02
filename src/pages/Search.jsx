@@ -80,7 +80,7 @@ const Search = () => {
           </article>
           <img
             style={{ width: "100px", height: "100px" }}
-            src="/src/assets/Image_29.webp"
+            src="./assets/Image-29.webp"
             alt=""
           />
         </div>
@@ -118,10 +118,7 @@ const Search = () => {
           )}
 
           <div className="watermark">
-            <img
-              src="/src/assets/Windows Icons - PNG/shell32.dll_14_23-8.png"
-              alt=""
-            />
+            <img src="./assets/shell32.dll-14-23-8.png" alt="" />
           </div>
         </div>
       </div>

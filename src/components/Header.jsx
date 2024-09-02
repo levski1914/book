@@ -11,7 +11,7 @@ const Header = () => {
         <div className="title-bar">
           <h1>
             <img
-              src="/src/assets/download (10).png"
+              src="./assets/download-(10).png"
               alt=""
               style={{ width: "30px", height: "30px" }}
             />
@@ -75,7 +75,7 @@ const Header = () => {
           </ul>
 
           <div className="logo">
-            <img src="/src/assets/download.png" alt="" />
+            <img src="./assets/download.png" alt="" />
           </div>
         </div>
         <div className="container">
@@ -84,7 +84,7 @@ const Header = () => {
               <li>
                 <Link to="/">
                   <img
-                    src="/src/assets/download (1).png"
+                    src="./assets/download-(1).png"
                     alt=""
                     style={{ paddingRight: "10px" }}
                   />
@@ -96,7 +96,7 @@ const Header = () => {
                 <Link to="/search">
                   <img
                     // src="../../images/download (3).png"
-                    src="/src/assets/download (3).png"
+                    src="./assets/download-(3).png"
                     alt=""
                     style={{ paddingRight: "10px" }}
                   />
@@ -107,7 +107,7 @@ const Header = () => {
                 <Link to="/books">
                   <img
                     // src="../../images/download (2).png"
-                    src="/src/assets/download (2).png"
+                    src="./assets/download-(2).png"
                     alt=""
                     style={{ paddingRight: "10px" }}
                   />
@@ -118,7 +118,7 @@ const Header = () => {
                 <Link to="/">
                   <img
                     // src="../../images/download (4).png"
-                    src="/src/assets/download (4).png"
+                    src="./assets/download-(4).png"
                     alt=""
                     style={{ paddingRight: "10px" }}
                   />

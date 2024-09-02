@@ -6,7 +6,7 @@ const AuthForm = ({ title, fields, handleSubmit, formClass }) => {
       <div className="loginHeader"></div>
       <div className="loginMain">
         <div className="loginBanner">
-          <img src="/src/assets/download (10).png" alt="" />
+          <img src="./assets/download-(10).png" alt="" />
           <h1>Book social network</h1>
           <h2>{title}</h2>
         </div>
@@ -42,7 +42,7 @@ const AuthForm = ({ title, fields, handleSubmit, formClass }) => {
               <span>
                 <img
                   style={{ transform: "rotate(180deg)", width: "20px" }}
-                  src="/src/assets/download (8).png"
+                  src="./assets/download-(8).png"
                   alt=""
                 />
               </span>{" "}

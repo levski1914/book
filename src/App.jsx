@@ -42,7 +42,7 @@ function App() {
   return (
     <AuthProvider>
       <WishlistProvider>
-        <Router>
+        <Router basename="./">
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
