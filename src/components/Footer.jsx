@@ -71,7 +71,9 @@ const setClockAngles = () => {
 
 const Footer = () => {
   const [time, setTime] = useState(getTime);
-  const [date, setDate] = useState(getDate(new Date().getMonth(), new Date().getFullYear()));
+  const [date, setDate] = useState(
+    getDate(new Date().getMonth(), new Date().getFullYear())
+  );
   const [selectedDay, setSelectedDay] = useState(new Date().getDate());
   const [isVisible, setIsVisible] = useState(false);
 
@@ -115,14 +117,17 @@ const Footer = () => {
     }
     for (let i = 1; i <= date.daysInMonth; i++) {
       numbers.push(
-        <li key={i} className={`nums ${i === selectedDay ? "Today" : ""}`} onClick={() => handleDayClick(i)}>
+        <li
+          key={i}
+          className={`nums ${i === selectedDay ? "Today" : ""}`}
+          onClick={() => handleDayClick(i)}
+        >
           {i}
         </li>
       );
     }
     return numbers;
   };
-
 
   const renderDialLines = () => {
     const lines = [];
@@ -142,17 +147,17 @@ const Footer = () => {
     <>
       <div className="footer taskBar">
         <div className="start">
-          <img src="../../images/download (14).png" alt="" />
+          <img src="/src/assets/download (14).png" alt="" />
         </div>
         <div className="clock">
           <div className="footer-icon">
-            <img src="../../images/download (11).png" alt="" />
+            <img src="/src/assets/download (11).png" alt="" />
           </div>
           <div className="footer-icon">
-            <img src="../../images/download (12).png" alt="" />
+            <img src="/src/assets/download (12).png" alt="" />
           </div>
           <div className="footer-icon">
-            <img src="../../images/download (13).png" alt="" />
+            <img src="/src/assets/download (13).png" alt="" />
           </div>
           <div className="footer-clock">
             <span onClick={() => setIsVisible(!isVisible)}>{time}</span>

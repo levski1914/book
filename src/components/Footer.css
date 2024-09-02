@@ -93,34 +93,34 @@
     background-color: #0050ee;
 }
 .title-btn:first-child{
-    background-image: url(../../images/download.svg);
+    background-image: url(/src/assets/download.svg);
 }
 .title-btn:nth-child(2){
-    background-image: url("../../images/download\ (1).svg");
+    background-image: url("/src/assets/download\ (1).svg");
 }
 .title-btn:last-child{
-    background-image: url("../../images/download\ (2).svg");
+    background-image: url("/src/assets/download\ (2).svg");
 }
 
 .title-btn:first-child:hover{
-    background-image: url("../../images/download\ (3).svg");
+    background-image: url("/src/assets/download\ (3).svg");
 }
 
 .title-btn:nth-child(2):hover{
-    background-image: url("../../images/download\ (4).svg");
+    background-image: url("/src/assets/download\ (4).svg");
 }
 .title-btn:last-child:hover{
-    background-image: url("../../images/download\ (5).svg");
+    background-image: url("/src/assets/download\ (5).svg");
 }
 .title-btn:first-child:active{
-    background-image: url("../../images/download\ (7).svg");
+    background-image: url("/src/assets/download\ (7).svg");
 }
 
 .title-btn:nth-child(2):active{
-    background-image: url("../../images/download\ (6).svg");
+    background-image: url("/src/assets/download\ (6).svg");
 }
 .title-btn:last-child:active{
-    background-image: url("../../images/download\ (8).svg");
+    background-image: url("/src/assets/download\ (8).svg");
 }
 
 .window-body{

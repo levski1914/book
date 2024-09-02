@@ -119,7 +119,7 @@ const Search = () => {
 
           <div className="watermark">
             <img
-              src="../../images/Windows Icons - PNG/shell32.dll_14_23-8.png"
+              src="/src/assets/Windows Icons - PNG/shell32.dll_14_23-8.png"
               alt=""
             />
           </div>

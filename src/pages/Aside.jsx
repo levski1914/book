@@ -14,24 +14,24 @@ const Aside = ({ handleTabClick }) => {
           <article className="aside-cards">
             <div className="aside-card-header">
               <h2>Book Network</h2>
-              <img src="../../images/download (5).png" alt="" />
+              <img src="/src/assets/download (5).png" alt="" />
             </div>
             <div className="aside-card-main">
               <div className="aside-row">
-                <img src="../../images/rundll32.exe_14_100-4.png" alt="" />
+                <img src="/src/assets/rundll32.exe_14_100-4.png" alt="" />
                 <Link to="/manage-books">Add new book</Link>
               </div>
               <div className="aside-row">
-                <img src="../../images/download (6).png" alt="" />
+                <img src="/src/assets/download (6).png" alt="" />
                 <Link to="/books">List of books</Link>
               </div>
 
               <div className="aside-row">
-                <img src="../../images/download (7).png" alt="" />
+                <img src="/src/assets/download (7).png" alt="" />
                 <Link to="/manage-books">Manage books</Link>
               </div>
               <div className="aside-row">
-                <img src="../../images/shell32.dll_14_269-4.png" alt="" />
+                <img src="/src/assets/shell32.dll_14_269-4.png" alt="" />
                 <Link to="/profile">User account</Link>
               </div>
             </div>
@@ -44,28 +44,28 @@ const Aside = ({ handleTabClick }) => {
       <article className="aside-cards">
         <div className="aside-card-header">
           <h2>Categories</h2>
-          <img src="../../images/download (5).png" alt="" />
+          <img src="/src/assets/download (5).png" alt="" />
         </div>
         <div className="aside-card-main">
           <div className="aside-row">
-            <img src="../../images/rundll32.exe_14_100-4.png" alt="" />
+            <img src="/src/assets/rundll32.exe_14_100-4.png" alt="" />
             <Link to="/" onClick={() => handleTabClick("allInOne")}>
               All in one store
             </Link>
           </div>
           <div className="aside-row">
-            <img src="../../images/download (6).png" alt="" />
+            <img src="/src/assets/download (6).png" alt="" />
             <Link to="/" onClick={() => handleTabClick("todaysDeal")}>
               Today's deal
             </Link>
           </div>
           <div className="aside-row">
-            <img src="../assets/download (6).png" alt="" />
+            <img src="/src/assets/download (6).png" alt="" />
             <Link to="/">Most popular books</Link>
           </div>
 
           <div className="aside-row">
-            <img src="../assets/shdoclc.dll_14_191-7.png" alt="" />
+            <img src="/src/assets/shdoclc.dll_14_191-7.png" alt="" />
             {/* <img src="/src/assets/shdoclc.dll_14_191-7.png" alt="" /> */}
             {/* <img src="../assets/" alt="" /> */}
             <Link to="/wishlist">Whishlist ({wishlistCount})</Link>

@@ -11,7 +11,7 @@ const Header = () => {
         <div className="title-bar">
           <h1>
             <img
-              src="../../images/download (10).png"
+              src="/src/assets/download (10).png"
               alt=""
               style={{ width: "30px", height: "30px" }}
             />
@@ -75,7 +75,7 @@ const Header = () => {
           </ul>
 
           <div className="logo">
-            <img src="../../images/download.png" alt="" />
+            <img src="/src/assets/download.png" alt="" />
           </div>
         </div>
         <div className="container">
@@ -84,7 +84,7 @@ const Header = () => {
               <li>
                 <Link to="/">
                   <img
-                    src="../../images/download (1).png"
+                    src="/src/assets/download (1).png"
                     alt=""
                     style={{ paddingRight: "10px" }}
                   />
@@ -95,7 +95,8 @@ const Header = () => {
               <li>
                 <Link to="/search">
                   <img
-                    src="../../images/download (3).png"
+                    // src="../../images/download (3).png"
+                    src="/src/assets/download (3).png"
                     alt=""
                     style={{ paddingRight: "10px" }}
                   />
@@ -105,7 +106,8 @@ const Header = () => {
               <li>
                 <Link to="/books">
                   <img
-                    src="../../images/download (2).png"
+                    // src="../../images/download (2).png"
+                    src="/src/assets/download (2).png"
                     alt=""
                     style={{ paddingRight: "10px" }}
                   />
@@ -115,7 +117,8 @@ const Header = () => {
               <li>
                 <Link to="/">
                   <img
-                    src="../../images/download (4).png"
+                    // src="../../images/download (4).png"
+                    src="/src/assets/download (4).png"
                     alt=""
                     style={{ paddingRight: "10px" }}
                   />
